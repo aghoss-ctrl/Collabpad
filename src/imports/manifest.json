@@ -1,0 +1,10 @@
+{
+  "name": "Blind Padlet",
+  "id": "blind-padlet-001",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "editorType": ["figjam"],
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}

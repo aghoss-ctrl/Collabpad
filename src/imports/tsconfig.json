@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "react",
+    "jsxFactory": "figma.widget.h",
+    "jsxFragmentFactory": "figma.widget.Fragment",
+    "strict": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./node_modules/@figma/plugin-typings",
+      "./node_modules/@figma/widget-typings"
+    ]
+  },
+  "include": ["widget-src/**/*.tsx"]
+}
