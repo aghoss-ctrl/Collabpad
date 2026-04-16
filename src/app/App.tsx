@@ -3,6 +3,10 @@ import { BlindPadlet } from "./components/BlindPadlet";
 import { projectId, publicAnonKey } from "/utils/supabase/info";
 import { Play, Users, MessageSquare, Eye, Lock } from "lucide-react";
 import { supabase } from "./lib/supabase";
+import { WidgetGrid } from '../guidelines/WidgetGrid'
+import { Sidebar } from '../guidelines/Sidebar'
+import { Header } from '../guidelines/Header'
+import { Widget } from '../guidelines/Widget'
 
 export default function App() {
   const [sessionId, setSessionId] = useState<string>("");
